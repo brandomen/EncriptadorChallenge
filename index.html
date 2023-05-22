@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Encriptador Challenge ONE</title>
+</head>
+<body>
+    <header>
+        <img src="Vector.png" alt="Logo Alura">
+    </header>
+
+    <main>
+        <section class="seccion-texto">
+            <textarea name="resultado" class="textarea" placeholder="Ingrese el texto aquí"></textarea>
+            <div class="alerta">
+                <img src="Alerta.png" alt="Alerta">
+                <p> Solo letras minúsculas y sin acentos</p>
+            </div>
+            <div class="contenedor-botones">
+                <input type="button" value="Encriptar" class="boton-encriptar">
+                <input type="button" value="Desencriptar" class="boton-desencriptar">
+
+            </div>
+        </section>
+        <section class="seccion-muneco">
+            <div class="contenedor-imagen">
+                <img src="Muñeco.png" alt="Muñeco">
+            </div>
+            <div class="contenedor-subtitulo">Ningún mensaje fue<br> encontrado</div>
+            <div class="contenedor-parrafo">
+                <p>Ingrese el texto que desea encriptar o<br> desencriptar</p>
+            </div>
+            <div class="contenedor-copiar">  
+                <input type="button" value="Copiar" class="boton-copiar">
+            </div>
+            <div class="contenedor-resultados">
+                <p class="texto-resultado"></p>
+            </div>
+        </section>
+    </main>
+</body>
+<script src="script.js"></script>
+</html>
